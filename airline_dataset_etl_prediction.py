@@ -20,7 +20,7 @@ start_time = time.time()
 print(f"Analiz başlangıç zamanı: {time.ctime(start_time)}\n")
 
 # Veri setini yükle
-data = pd.read_excel("C:\\Users\\Axel\\Desktop\\portfolyo\\airline_dataset_etl_prediction\\Airline Dataset Updated - v2.xlsx")
+data = pd.read_excel("Airline Dataset Updated - v2.xlsx")
 
 # Departure Date sütununu datetime formatına dönüştür
 data['Departure Date'] = pd.to_datetime(data['Departure Date'], errors='coerce')
